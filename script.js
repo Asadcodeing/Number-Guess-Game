@@ -10,7 +10,7 @@ function numGuess() {
         result.textContent = "InValid Input! Guess number between 1 and 10";
         attemptsLeft.textContent = "";
     }else if(num === secreteNum){
-        result.textContent = "Congratulations! You won the Game";
+        result.textContent = "Congratulations! You won the Game. Refresh the Website and Play Again";
         attemptsLeft.textContent = "";
     }else{
         attempts--;
