@@ -9,9 +9,7 @@ function numGuess() {
     if(isNaN(num) || num < 1 || num > 10){
         result.textContent = "InValid Input! Guess number between 1 and 10";
         attemptsLeft.textContent = "";
-    }
-
-    if(num === secreteNum){
+    }else if(num === secreteNum){
         result.textContent = "Congratulations! You won the Game";
         attemptsLeft.textContent = "";
     }else{
