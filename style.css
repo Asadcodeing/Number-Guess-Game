@@ -12,6 +12,7 @@ body{
     background-color: white;
     border-radius: 10px;
     width: 30%;
+    justify-content: center;
     align-items: center;
     padding: 20px 20px ;
     box-shadow: 0 5px 10px rgb(2, 0, 0);
@@ -22,6 +23,7 @@ body{
     margin: 10px;
     font-size: 16px;
     border-radius: 5px ;
+    width: 260px;
 }
 
 #guess{
